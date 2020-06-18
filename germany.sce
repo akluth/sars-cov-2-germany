@@ -10,6 +10,7 @@
  * Published under the MIT license by Alexander Kluth <clooze@tuta.io>
  */
 mode(0);
+host update.sh;
 clear importdata; 
  
 function [header, data] = importdata(filename) 
