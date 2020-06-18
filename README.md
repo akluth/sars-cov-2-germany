@@ -4,4 +4,4 @@ This is data from the [Johns Hopkins University](https://github.com/CSSEGISandDa
 plotted in SciLab. This is mainly for personal educational purposes (getting into math
 again, learning SciLab, learning to do things with data).
 
-
+![Plot of cases as of 17/06/20](plot.png)
