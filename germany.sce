@@ -7,7 +7,7 @@
  * This graph shows all confirmed, recovered and dead cases starting at
  * 22.01.2020.
  *
- * Published under the MIT license by Alexander Kluth <clooze@tuta.io>
+ * Published under the MIT license by Alexander Kluth <alex@quackiquacki.org>
  */
 mode(0);
 host update.sh;
@@ -44,4 +44,5 @@ plot(x,germany_confirmed,x,germany_recovered,x,germany_dead);
 xticks2string(header(5:$),10)
 xtitle("Germany Covid-19 Confirmed, Recovered, Death Cases","Date","Cases")
 xgrid()
-legend("Confirmed", "Recovered", "Dead", 3);
+legend("Confirmed", "Recovered", "Dead", 2)
+xs2png(0, 'plot.png');
